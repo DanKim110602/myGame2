@@ -31,7 +31,7 @@ export interface Sprite {
 export class SpriteService {
   sprites:Sprite[]=[
     {
-      name: 'Baby Shark',
+      name: 'Baby Boy',
       visibility: true,
       state: 0,
       direction: 'right',
@@ -40,15 +40,15 @@ export class SpriteService {
       acceleration: 1,
       scale: .7,
       playable: true,
-      url: '../assets/sprites/babysharks.png',
+      url: '../assets/sprites/babyBoy.jpg',
       fps: 7,
       x: 200,
       y: 200,
-      rows: 2,
-      columns: 2,
+      rows: 4,
+      columns: 5,
       spriteReference: null,
-      leftFrames: [2, 3],
-      rightFrames: [0, 1]
+      leftFrames: [10, 19],
+      rightFrames: [0, 9]
     },
   ];
 
